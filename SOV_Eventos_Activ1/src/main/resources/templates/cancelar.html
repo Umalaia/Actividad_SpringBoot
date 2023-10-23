@@ -9,8 +9,8 @@
 	
 	<form th:action="@{/eventos/cancelar/{id}(id=${evento.idEvento})}" th:object=${eventos} method="post">
 		<select name="estado">
-			<option value = "activo"> Activo </option>
-			<option value = "cancelado"> Cancelado </option>
+			<option value = "Activo"> Activo </option>
+			<option value = "Cancelado"> Cancelado </option>
 		</select>
 		<input type="submit" value="Modificar">
 	</form>

@@ -12,21 +12,25 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import eventos.modelo.dao.EventoDao;
 import eventos.modelo.dao.TipoDao;
 import eventos.modelo.javabeans.Evento;
+import lombok.RequiredArgsConstructor;
+import net.unir.clientes.modelo.javabean.Cliente;
 
 
 
 @Controller
+@RequiredArgsConstructor
 @RequestMapping("/eventos")
 public class EventoController {
 
-	@Autowired
-	private EventoDao edao;
+	
+	private final EventoDao edao;
 
 	
 	//ALTA
@@ -34,6 +38,7 @@ public class EventoController {
 	public String mostrarAlta() {
 		return "alta";
 	}
+	
 	
 	@PostMapping("/alta")
 	public String procAlta(Evento evento) {
@@ -72,17 +77,14 @@ public class EventoController {
 	@GetMapping("/cancelar/{id}")
 	public String cancelarEvento(@PathVariable("id") int idEvento, Model model) {
 		Evento evento = edao.findById(idEvento);
-		if (evento != null) {
-			model.addAttribute("evento", evento);
-			return "cancelar";
-		}
-		else {
-			return "forward:/";
-		}
+		evento.setEstado("Cancelado");
+		edao.updateOne(evento);
+		return "redirect:/";
 	}
 	
 	
 	
+
 	//Formato fechas
 	@InitBinder
     public void initBinder(WebDataBinder binder){

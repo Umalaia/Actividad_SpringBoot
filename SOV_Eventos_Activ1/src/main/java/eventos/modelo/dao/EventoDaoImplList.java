@@ -26,13 +26,12 @@ public class EventoDaoImplList implements EventoDao {
 	private void cargarLista() {
 		TipoDaoImplList tipoDao = new TipoDaoImplList();
 		
-		lista.add(new Evento(1, "Boda Castillo-Orejuela", "Celebración en salón El Coral", new Date() ,"activo","S", 250, 70, 5980.00, tipoDao.findById(1) ));
-		lista.add(new Evento(2, "Cumpleaños Miguel Gutierrez", "Cumpleaños infantil", new Date(), "cancelado", null, 40, 15, 700.50, tipoDao.findById(2)));
-		lista.add(new Evento(3, "Despedida Marta Alamo", "Despedida en terraza/piscina", new Date(), "cancelado", null, 45, 10, 900.00, tipoDao.findById(3)));
-		lista.add(new Evento(4, "Concierto Luis Fonsi", "Concierto al aire libre", new Date(), "activo", "S", 2000, 500, 150000.00, tipoDao.findById(4)));
+		lista.add(new Evento(1, "Boda Castillo-Orejuela", "Celebración en salón El Coral", new Date() ,"Activo","S", 250, 70, 5980.00, tipoDao.findById(1) ));
+		lista.add(new Evento(2, "Cumpleaños Miguel Gutierrez", "Cumpleaños infantil", new Date(), "Activo", "S", 40, 15, 700.50, tipoDao.findById(2)));
+		lista.add(new Evento(3, "Despedida Marta Alamo", "Despedida en terraza/piscina", new Date(), "Cancelado", null, 45, 10, 900.00, tipoDao.findById(3)));
+		lista.add(new Evento(4, "Concierto Luis Fonsi", "Concierto al aire libre", new Date(), "Activo", "S", 2000, 500, 150000.00, tipoDao.findById(4)));
 		idAuto = 5;
-		
-		
+
 	}
 
 

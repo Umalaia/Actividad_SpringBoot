@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 
 body{
-	
+	background : white;
 }
 
 
@@ -17,4 +17,16 @@ button{
 
 #tabla2{
 	float:right;
+}
+
+#evTip{
+	background : #0D8E9C !important;
+}
+
+th{
+	background : #59BFBF;
+}
+
+td{
+	background : #D4E6E6;
 }
