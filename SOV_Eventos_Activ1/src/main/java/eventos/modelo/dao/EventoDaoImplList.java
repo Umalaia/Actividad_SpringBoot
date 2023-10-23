@@ -54,7 +54,7 @@ public class EventoDaoImplList implements EventoDao {
 	@Override
 	public int insert(Evento evento) {
 		if (!lista.contains(evento)) {
-			evento.setIdEvento(++idAuto);
+			evento.setIdEvento(idAuto++);
 			lista.add(evento);
 			
 			return 1;

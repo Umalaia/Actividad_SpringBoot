@@ -23,9 +23,4 @@ public class Evento implements Serializable{
 	private int minimoAsistencia;
 	private double precio;
 	private Tipo idTipo;
-	
-	
-	
-	
-
 }

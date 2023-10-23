@@ -23,7 +23,7 @@ public class HomeController {
 		List<Evento> evActivo = new ArrayList<>();
 		
 		for(Evento evento: edao.findAll()) {
-			if(evento.getEstado()=="Activo")
+			if(evento.getEstado().equalsIgnoreCase("activo"))
 				evActivo.add(evento);
 			else
 				System.out.println(evento);
