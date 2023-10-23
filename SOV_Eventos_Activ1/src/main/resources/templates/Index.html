@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" th:href="@{../css/Index.css}">
+<title>Inicio</title>
+</head>
+<body>
+	<h1>EVENTOS</h1>
+	<table border="2" width="100%">
+		<tr>
+			<th>Tipos</th>
+			<th>Eventos</th>
+			<th>Usuarios</th>
+			<th id="evTip">Eventos/tipo</th>
+			<th>Login</th>
+			<th>Registro</th>
+			<th>Salir</th>
+			
+		</tr>
+	</table> 
+	
+	<h2>Listado de eventos activos</h2>
+	<button><a th:href="@{/eventos/alta}">Nuevo evento</a></button>
+	<table id="tabla1" border="1" width=49%>
+		<tr>
+			<th>Id</th>
+			<th>Nombre</th>
+			<th>Precio</th>
+			<th>Destacado</th>
+		</tr>
+		<tr th:each="evento : ${eventos}">
+			<td th:text=${evento.idEvento}>id Evento</td>
+			<td th:text=${evento.nombre}>Nombre</td>
+			<td th:text=${evento.precio}>Precio</td>
+			<td th:text=${evento.destacado}>Destacado</td>
+		</tr>
+	</table>
+	<table id="tabla2" border="1" width=49%>
+		<tr>
+			<th width=100% colspan="3">Opciones</th>
+		</tr>
+		<tr th:each="evento : ${eventos}">
+			<td><a th:href="@{/eventos/verDetalle/{id}(id=${evento.idEvento})}">Detalles</a></td>
+			<td><a th:href="@{/eventos/eliminar/{id}(id=${evento.idEvento})}">Eliminar</a></td>
+			<td><a th:href="@{/eventos/cancelar/{id}(id=${evento.idEvento})}">Cancelar</a></td>
+		</tr>
+	</table>
+	
+</body>
+</html>

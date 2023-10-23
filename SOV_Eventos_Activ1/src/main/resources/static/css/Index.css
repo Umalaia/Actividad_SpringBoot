@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+
+body{
+	
+}
+
+
+button{
+	float:left;
+	margin-right : 80%;
+	margin-bottom : 20px;
+}
+
+#tabla1{
+	float:left;
+}
+
+#tabla2{
+	float:right;
+}

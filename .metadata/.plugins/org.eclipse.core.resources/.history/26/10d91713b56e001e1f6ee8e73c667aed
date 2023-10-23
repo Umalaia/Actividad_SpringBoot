@@ -1,0 +1,10 @@
+package eventos.pruebas;
+
+public class PruebaTipo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

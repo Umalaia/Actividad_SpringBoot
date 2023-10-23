@@ -1,0 +1,71 @@
+2023-10-19 20:22:25,325 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-19 20:23:49,729 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eventos:SOV_Eventos_Activ1:0.0.1-SNAPSHOT @ C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\pom.xml.
+2023-10-19 20:23:52,050 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SOV_Eventos_Activ1/src/main/java
+2023-10-19 20:23:52,050 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SOV_Eventos_Activ1/src/main/resources
+2023-10-19 20:23:52,059 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SOV_Eventos_Activ1/src/main/resources
+2023-10-19 20:23:52,068 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SOV_Eventos_Activ1/src/test/java
+2023-10-19 20:23:54,524 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2023-10-19 20:23:54,528 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-10-19 20:23:54,777 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eventos:SOV_Eventos_Activ1:0.0.1-SNAPSHOT @ C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\pom.xml.
+2023-10-19 20:23:55,084 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SOV_Eventos_Activ1/src/main/java
+2023-10-19 20:23:55,084 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SOV_Eventos_Activ1/src/main/resources
+2023-10-19 20:23:55,084 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SOV_Eventos_Activ1/src/main/resources
+2023-10-19 20:23:55,085 [Worker-26: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SOV_Eventos_Activ1/src/test/java
+2023-10-19 20:23:55,839 [Worker-26: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2023-10-19 20:23:56,458 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:23:56,471 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:23:56,474 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:24:25,169 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:24:25,175 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:24:25,178 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:24:39,772 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:24:39,776 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:24:39,779 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:25:39,635 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:25:39,655 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:25:39,658 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:39:50,927 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:39:50,936 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:39:50,938 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:44:37,906 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-19 20:44:42,825 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:44:42,844 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:44:42,848 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:50:15,657 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:50:15,673 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:50:15,677 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:50:44,500 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:50:44,507 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:50:44,509 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:50:52,095 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:50:52,105 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:50:52,107 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:56:01,906 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 20:56:01,922 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 20:56:01,925 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 20:56:14,520 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-19 21:01:51,520 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 21:01:51,532 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 21:01:51,535 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 21:02:31,809 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 21:02:31,818 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 21:02:31,821 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 21:14:30,307 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 21:14:30,316 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 21:14:30,319 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 21:19:23,602 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 21:19:23,610 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 21:19:23,612 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 21:20:56,702 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 21:20:56,736 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 21:20:56,738 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 21:21:15,410 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 21:21:15,419 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 21:21:15,421 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 21:23:53,182 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 21:23:53,189 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 21:23:53,191 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 21:24:08,565 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-19 21:24:08,571 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-19 21:24:08,575 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Sheila\OneDrive\Escritorio\DAW\DESARROLLO WEB EN ENTORNO SERVIDOR\SOV_Eventos_Activ1\SOV_Eventos_Activ1\src\test\resources
+2023-10-19 21:24:34,216 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

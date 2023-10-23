@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Ver detalles de los eventos</title>
+</head>
+<body>
+	<h1>Detalles del evento</h1>
+	
+	<p th:text="${evento.idEvento}"></p>
+	<p th:text="${evento.nombre}"></p>
+	<p th:text="${evento.descripcion}"></p>
+	<p th:text="${#dates.format(evento.fechaInicio, 'dd - MM - yyyy')}"></p>
+	<p th:text="${evento.estado}"></p>
+	<p th:text="${evento.destacado}"></p>
+	<p th:text="${evento.aforoMaximo}"></p>
+	<p th:text="${evento.minimoAsistencia}"></p>
+	<p th:text="${evento.precio}"></p>
+	<p th:text="${evento.idTipo.nombre}"></p>
+	
+	<a th:href="@{/}">Volver al inicio</a>
+
+</body>
+</html>
